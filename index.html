@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Daniel P. Smith Vocal Studio</title>
-
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/grayscale.css" rel="stylesheet">
-
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -34,10 +25,9 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-microphone"></i>  <span class="light">Daniel P. Smith</span> Vocal Studio
+                    <i class="fa fa-microphone animated"></i>  <span class="light">Daniel P. Smith</span> Vocal Studio
                 </a>
             </div>
-
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <li class="hidden">
@@ -73,7 +63,6 @@
         </div>
     </header>
 
-    <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -95,26 +84,58 @@
         </div>
     </section>
 
-    <!-- Download Section -->
     <section id="lessons" class="content-section text-center">
         <div class="lessons-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2" id="bookLesson1">
                     <h2>Lessons</h2>
                     <p>Each voice lesson consists of a targeted vocal workout using goal-specific <a href="http://www.vocaladvancement.com" target="_blank">IVA</a> exercises designed for your unique voice. Clients can also spend time on repertoire, foreign language diction, sight-reading, or performance/recording preparation.</p>
                     <p> The <a href="http://www.vocaladvancement.com/the-iva-technique/" target="_blank">IVA&nbsp;technique</a> can help anyone sing in a free and natural manner, smoothly, from the bottom to the top of the range with no breaks or sudden changes in quality. It helps improve a singer's range, breath control, resonance, endurance, stamina, vocal quality and strength. Since technique is distinctively separate from style, this method will help vocalists of any genre of music. Solid voice technique is extremely important for complete artistic freedom, which is the ultimate objective.</p>
-                    <a href="mailto:lessons@dpsvocal.com" class="btn btn-default btn-lg">Book a lesson</a>
+
+                    <a class="btn btn-default btn-lg" id="lessonToggle">Lesson Rates</a>
+
+                    <div id="bookLesson2">
+
+                        <div class="row" id="formDiv">
+                            <div class="col-md-10 col-md-offset-1">
+                                <h2>Lesson Rates</h2>
+                                    <div class="row">
+                                        <div class="col-md-12 full-width-btn">
+
+                                            <a class="btn btn-default btn-lg">
+                                                <small>One</small> 30 minute <small>lesson</small> - $20
+                                            </a>
+                                            <a class="btn btn-default btn-lg">
+                                                <small>One</small> 60 minute <small>lesson</small> - $40
+                                            </a>
+                                        </div>
+
+                                        <div class="col-md-12 full-width-btn">
+                                            <a class="btn btn-default btn-lg">
+                                                <small>Six</small> 30 minute <small>lessons</small> - $110
+                                            </a>
+                                            <a class="btn btn-default btn-lg">
+                                                <small>Six</small> 60 minute <small>lessons</small> - $220
+                                            </a>
+                                        </div>
+                                        <a class="btn btn-default btn-lg" id="back">Back</a>&nbsp;
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Daniel</h2>
-                <p>Please get in touch if you have any questions!</p>
+                <p>Please get in touch to schedule a voice lesson or if you have any questions!</p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="mailto:lessons@dpsvocal.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
@@ -133,20 +154,13 @@
         </div>
     </section>
 
-
     <div id="map"></div>
 
-
     <script src="js/jquery.js"></script>
-
     <script src="js/bootstrap.min.js"></script>
-
     <script src="js/jquery.easing.min.js"></script>
-
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
+    <script src="js/scotchPanels.min.js"></script>
     <script src="js/grayscale.js"></script>
-
 </body>
-
 </html>

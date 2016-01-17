@@ -29,6 +29,31 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+
+
+var panel = $('#bookLesson2').scotchPanel({
+    containerSelector: '#bookLesson1', // As a jQuery Selector
+    direction: 'right', // Make it toggle in from the left
+    duration: 400, // Speed in ms how fast you want it to be
+    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+    // clickSelector: '#lessonToggle', // Enables toggling when clicking elements of this class
+    distanceX: '100%', // Size fo the toggle
+    enableEscapeKey: true // Clicking Esc will close the panel
+});
+
+$("#lessonToggle").click(function(){
+    panel.open();
+});
+
+$("#back").click(function(){
+    panel.close();
+})
+
+
+
+
+
 // Google Maps Scripts
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
