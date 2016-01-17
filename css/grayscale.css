@@ -100,7 +100,24 @@ p a:focus {
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-weight: 500;
+    font-size: .95em;
+    padding-top: 19px;
+}
+
+.navbar-custom .navbar-brand i {
+    display: none;
+}
+
+@media(min-width:768px) {
+    .navbar-custom .navbar-brand {
+        font-size: initial;
+        font-weight: 700;
+        padding-top: 15px;
+    }
+    .navbar-custom .navbar-brand i {
+        display: initial;
+    }
 }
 
 .navbar-custom .navbar-brand i {
