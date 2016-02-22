@@ -364,9 +364,15 @@ p a:focus {
     text-shadow: 0 0 5px black;
 }
 
+#bookLesson1 p {
+    text-shadow: 0 0 40px black;
+}
+
 .lessons-section .btn {
     text-shadow: none;
+    background-color: rgba(0,0,0,.1);
 }
+
 
 #map {
     width: 100%;
