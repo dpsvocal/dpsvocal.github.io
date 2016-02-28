@@ -220,6 +220,7 @@ p a:focus {
 }
 
 .intro .intro-body {
+    opacity: 0;
     display: table-cell;
     vertical-align: middle;
 }
@@ -248,7 +249,6 @@ p a:focus {
 }
 
 .btn-circle {
-    opacity: 0;
     width: 70px;
     height: 70px;
     margin-top: 15px;
