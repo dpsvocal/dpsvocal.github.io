@@ -10,7 +10,7 @@ $(window).scroll(function() {
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
 
-    $('.btn-circle').css({'visibility': 'visible'});
+    $('.btn-circle').css({'opacity': 1});
 
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
