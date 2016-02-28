@@ -10,7 +10,8 @@ $(window).scroll(function() {
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
 
-    $('.intro-body').css({'opacity': 1});
+    $('.intro-body').animate({'opacity': 1}, 1000);
+    $('nav').animate({'opacity': 1}, 1000);
 
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
